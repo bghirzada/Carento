@@ -1,5 +1,4 @@
 import 'animate.css';
-import Carousel from './carousel';
 import { useState } from 'react';
 
 const Header = () => {
@@ -16,8 +15,8 @@ const Header = () => {
     ];
 
     return (
-        <div className='w-full h-screen bg-cover bg-top bg-no-repeat text-white' style={{ backgroundImage: "url('https://carento-nextjs.vercel.app/_next/static/media/banner.c6982b24.png')" }}>
-            <div className='w-full h-full absolute opacity-60 bg-black z-10'></div>
+        <div className='w-full h-[calc(100vh-100px)] bg-cover bg-top bg-no-repeat text-white' style={{ backgroundImage: "url('https://carento-nextjs.vercel.app/_next/static/media/banner.c6982b24.png')" }}>
+            <div className='w-full h-[calc(100vh-100px)] absolute opacity-60 bg-black z-10'></div>
             <div className='relative z-20'>
                 <nav>
                     <div className='flex justify-between items-center border-[#7a7a7a] border-b px-16 text-sm'>
@@ -27,7 +26,7 @@ const Header = () => {
                         </div>
                         <div className='flex gap-4'>
                             <p>More than <span className='text-[#70f46d]'>800+</span>spetion collaction cars in this summer</p>
-                            <button className='py-[2px] px-[10px] rounded-2xl bg-[#70f46d] hover:bg-[#4eca4c] text-black cursor cursor-pointer'>Access now</button>
+                            <button className='py-0.5 px-2.5 rounded-2xl bg-[#70f46d] hover:bg-[#4eca4c] text-black cursor cursor-pointer'>Access now</button>
                         </div>
                         <div className='flex'>
                             <button className='flex items-center p-4 cursor cursor-pointer'>
@@ -67,7 +66,7 @@ const Header = () => {
                             <button className='p-4 cursor cursor-pointer'>Icon</button>
                         </div>
                     </div>
-                    <div className='flex justify-between items-center px-2.5 px-16 border-[#7a7a7a] border-b'>
+                    <div className='flex justify-between items-center px-16 border-[#7a7a7a] border-b'>
                         <div className='py-4'>
                             <h1 className='text-3xl font-bold cursor cursor-pointer'>Carento</h1>
                         </div>
