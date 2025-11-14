@@ -35,10 +35,10 @@ const Brends = () => {
                         <div className='mx-8 bg-[#70f46d] p-5 rounded-xl text-center'>Find a vehicle</div>
                     </div>
                 </div>
-                <h2 className=''>Premium Brenda</h2>
-                <div>
-                    <p>Unveil the Finest Selection of High-End Vehicles</p>
-                    <p>Show all brends </p>
+                <h2 className='font-bold text-5xl mt-12'>Premium Brands</h2>
+                <div className='flex justify-between mt-2'>
+                    <p className='text-lg text-gray-500'>Unveil the Finest Selection of High-End Vehicles</p>
+                    <p className='font-bold'>Show all brends </p>
                 </div>
                 <div className=''>
                     <Carousel />
