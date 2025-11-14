@@ -5,7 +5,7 @@ import Carousel from './carousel';
 const Brends = () => {
     return (
         <div className='flex flex-col items-center bg-[#f2f4f6]'>
-            <div className='z-30 w-5/6 -mt-32'>
+            <div className='z-30 w-2/3 -mt-32'>
                 <div className='h-70 bg-white font-semibold text-black p-8 rounded-3xl shadow-[0_10px_20px_0_rgba(0,0,0,0.05)]'>
                     <div className='flex justify-between '>
                         <div>
